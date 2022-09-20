@@ -4,3 +4,15 @@ describe('test1',()=>{
         cy.wait(200)
     } )
 })
+describe('test1',()=>{
+    it('first test', ()=>{
+        cy.visit('https://www.youtube.com/')
+        cy.wait(200)
+    } )
+})
+describe('test1',()=>{
+    it('first test', ()=>{
+        cy.visit('https://www.youtube.com/')
+        cy.wait(200)
+    } )
+})
