@@ -1,2 +1,6 @@
-start writing code
-How to commit changes 
+describe('test1',()=>{
+    it('first test', ()=>{
+        cy.visit('https://www.youtube.com/')
+        cy.wait(200)
+    } )
+})
